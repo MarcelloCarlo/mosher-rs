@@ -9,6 +9,7 @@
  - Add random or linear glitch to image.
  - If not possible for one phase random position glitch, try glitch,
    save, glitch layered process flow.
+ - Find the image binary header and ignore it in data moshing. 
   - Use device TPM for random value generator.
   - Outputs a readable image file (Retry intervals until it’s readable).
   - Add custom string value as either salt key, or injected value.
