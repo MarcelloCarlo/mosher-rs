@@ -1,6 +1,6 @@
 use gtk::gio::ffi::GAsyncReadyCallback;
 use gtk::gio::{Cancellable, ListStore};
-use gtk::{Application, ApplicationWindow, CallbackAction, FileDialog, gio, glib};
+use gtk::{Application, ApplicationWindow, FileDialog, glib};
 use gtk::{Box, Button, FileFilter, prelude::*};
 
 const APP_ID: &str = "com.marcellocarlo.mosher-rs";
